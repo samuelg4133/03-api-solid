@@ -1,0 +1,26 @@
+version: "3"
+
+services:
+  # Application
+
+  database:
+    container_name: api-solid-pg
+    image: "bitnami/postgresql:latest"
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRESQL_USERNAME=docker
+      - POSTGRESQL_PASSWORD=docker
+      - POSTGRESQL_DATABASE=ignitenode03
+    volumes:
+      - "postgresql_data:/bitnami/postgresql"
+    networks:
+      - app-net
+
+networks:
+  app-net:
+    driver: bridge
+
+volumes:
+  postgresql_data:
+    driver: local
