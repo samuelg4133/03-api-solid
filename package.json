@@ -21,6 +21,7 @@
     "test:watch": "vitest --dir tests/use-cases"
   },
   "dependencies": {
+    "@fastify/cookie": "8.3.0",
     "@fastify/jwt": "7.2.0",
     "@prisma/client": "5.0.0",
     "@vitest/ui": "0.29.7",
