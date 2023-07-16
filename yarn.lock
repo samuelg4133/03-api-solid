@@ -3617,6 +3617,10 @@
   optionalDependencies:
     "fsevents" "~2.3.2"
 
+"vitest-environment-prisma@file:prisma/vitest-environment-prisma":
+  "resolved" "file:prisma/vitest-environment-prisma"
+  "version" "1.0.0"
+
 "vitest@>=0.29.0 <1", "vitest@0.29.7":
   "integrity" "sha512-aWinOSOu4jwTuZHkb+cCyrqQ116Q9TXaJrNKTHudKBknIpR0VplzeaOUuDF9jeZcrbtQKZQt6yrtd+eakbaxHg=="
   "resolved" "https://registry.npmjs.org/vitest/-/vitest-0.29.7.tgz"
